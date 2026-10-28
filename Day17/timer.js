@@ -6,8 +6,8 @@ const stopBtn = document.querySelector("#stop-btn");
 const resetBtn = document.querySelector("#reset-btn");
 
 const START = 10;
-let left = START;     // 남은 초
-let timerId = null;   // setInterval이 돌려준 번호 — 멈출 때 씁니다
+let left = START; // 남은 초
+let timerId = null; // setInterval이 돌려준 번호 — 멈출 때 씁니다
 
 // 1. 남은 시간을 화면에 쓰기
 function render() {
